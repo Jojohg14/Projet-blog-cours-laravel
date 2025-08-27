@@ -13,3 +13,5 @@ route::view ('/','home')->name('home');
 Route::view('/contactez-nous', 'contact')->name('contact');
 
 Route::view('/about', 'about')->name('about');
+
+Route::view('article', 'article')->name('article');
